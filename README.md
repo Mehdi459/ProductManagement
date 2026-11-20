@@ -20,6 +20,16 @@ Le texte est généré par Claude (API Anthropic).
 | 💶 **Prix** | Prix ebook (dans la fourchette 70 % KDP), prix broché (couvre le coût d'impression avec marge), prix Udemy (grille officielle), redevance par vente et projection de revenus mensuels. Utilise les prix médians de l'étude de marché quand elle existe. |
 | 📦 **Exports** | **PDF** imprimable (6×9 pouces, avec couverture et illustrations), **Word .docx** (accepté par Amazon KDP), HTML, Markdown, SVG des illustrations, plan de formation en Markdown et **CSV** du programme Udemy. |
 
+## Version en ligne (sans installation)
+
+`web/bookforge.html` est la même application sous forme de page web, publiée sur claude.ai :
+https://claude.ai/artifact/NbGn3oNKB86P1m4iT8PFrB
+
+Pas de clé API à fournir : Claude tourne sur le compte claude.ai de la personne qui utilise la page,
+et les projets sont sauvegardés en ligne dans son espace privé. Exports : EPUB, HTML imprimable, Markdown,
+couverture SVG, formation (Markdown et CSV). Différence avec la version Python : l'étude de marché repose
+sur les connaissances de Claude, sans recherche web en direct.
+
 ## Installation
 
 Python 3.10 ou plus.
