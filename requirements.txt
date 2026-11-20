@@ -1,0 +1,6 @@
+anthropic>=2.0
+streamlit>=1.40
+markdown>=3.5
+python-docx>=1.1
+weasyprint>=62   # optionnel : export PDF
+pytest>=8
